@@ -4,7 +4,7 @@ r=pd.read_csv("user.csv")#your addres
 #for index,row in r.iterrows():
   #ردیف و ستون
 s1=r.iloc[:,1]
-s2=r.iloc[:,0]
+
 #add.move
 with open('move.txt','w',encoding='utf_8')as f :
   for index,row in r.iterrows():
@@ -29,3 +29,4 @@ with open('js.txt','w',encoding='utf_8')as f :
         
 
     
+

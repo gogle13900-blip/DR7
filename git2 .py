@@ -27,4 +27,5 @@ with open('js.txt','w',encoding='utf_8')as f :
             f.write(row['name']+'\n')
 #بقیه رو بریزه یک جای دیگه
         
+
     
